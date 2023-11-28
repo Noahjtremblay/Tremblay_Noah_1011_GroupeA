@@ -42,6 +42,10 @@ public class LevelManager : MonoBehaviour
         SceneManager.LoadScene(Scene.ExamenA_01.ToString());
     }
 
+    public void QuitGame(){
+        Application.Quit();
+    }
+
     public async void LoadAsyncScene(Scene sceneName){
         _target = 0;
         _progressBar.fillAmount = 0;
