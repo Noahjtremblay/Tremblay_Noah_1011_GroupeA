@@ -8,4 +8,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/ExamenA_01.unity
+    guid: a3ce83f2adcbf4015bad87a5f4260719
+  - enabled: 1
+    path: Assets/Scenes/ExamenA_02.unity
+    guid: 68cbc6517f7d30747be0705357bdbb4d
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5b40a0b0a61e32746ac55aedcec850b8,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0a32df44d68fc4e4089910df91534e23,
+      type: 2}
